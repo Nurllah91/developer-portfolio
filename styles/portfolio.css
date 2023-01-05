@@ -79,11 +79,23 @@ nav li{
 }
 
 /* main section styles */
+
 main{
   max-width: 1140px;
   margin: 0 auto;
 
 }
+section{
+  margin-top: 130px;
+}
+
+/* resume styles */
+
+
+
+
+
+
 
 
 /* about section styles */
@@ -98,9 +110,10 @@ main{
 
 .sec-title{
   
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-size: 38px;
   font-weight: 700;
+  text-align: center;
 
 }
 .sec-description{
@@ -122,4 +135,49 @@ main{
   font-weight: 700;
   color: #474747;
   
+}
+/* what i do styles */
+
+
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skills-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+ 
+
+
+}
+.skills-description{
+
+}
+.skills{
+  background-color: antiquewhite;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.726);
+  border-radius: 5px;
+  padding: 30px;
+
+}
+
+.resume.title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  
+
+}
+.resume.sub-title{
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  
+
+}
+.resume.description{
+  color:#757575;
 }
