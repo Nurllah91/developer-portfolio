@@ -169,7 +169,7 @@ section{
 .resume-container{
   display: flex;
   gap: 25px;
-
+ 
 }
 
 .resume.title{
@@ -201,4 +201,32 @@ section{
 .resume-item{
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.contact-section{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 135px 150px ;
+
+
+
+}
+.contact-section .sec-title{
+  text-align: left;
+}
+.contact-section input[type="text"], input[type="email"],textarea{
+  margin-bottom: 25px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+
+
+}
+
+.sec-descripton{
+  margin-bottom: 25px;
+}
+.contact-section a{
+  text-decoration: none;
 }
